@@ -84,11 +84,12 @@ body {
   color: red;
   font-weight: bold;
   cursor: pointer;
+  margin-left: 3%;
 }
 
 .main-container .contact-book-container {
   height: auto;
-  width: 30%;
+  min-width: 30%;
   background-color: #fff;
   border-radius: 8%;
   padding: 1.3rem;
@@ -123,7 +124,7 @@ body {
 
 .main-container .notes-container {
   height: auto;
-  width: 35%;
+  max-width: 35%;
   border-radius: 10%;
   background-color: white;
   -webkit-box-shadow: 1px 12px 11px 3px rgba(0, 0, 0, 0.64);
@@ -151,3 +152,5 @@ body {
   justify-content: space-between;
   margin-bottom: 3%;
 }
+
+@media and
