@@ -1,0 +1,153 @@
+body {
+  background-color: #a8c0a8;
+}
+
+.main-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.main-container .addContactFields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.main-container .addContactFields .contact-add {
+  border-color: #cccccc;
+  width: 70%;
+  border-style: solid;
+  font-size: 13px;
+  padding: 7px;
+  border-radius: 10px;
+  border-width: 2px;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(42, 42, 42, 0.29);
+  box-shadow: 0px 0px 4px 0px rgba(42, 42, 42, 0.29);
+  text-shadow: 0px 0px 0px rgba(42, 42, 42, 0.75);
+}
+
+.main-container .addContactFields .contact-add:focus {
+  outline: none;
+  border: 1px solid #8fe98f;
+}
+
+.main-container .addContactFields .add {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #44c767), to(#5cbf2a));
+  background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+  background-color: #44c767;
+  border-radius: 10px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 15px;
+  padding: 10px 16px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  outline: none;
+}
+
+.main-container .addContactFields .add:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #5cbf2a), to(#44c767));
+  background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+  background-color: #5cbf2a;
+}
+
+.main-container .addContactFields .add:active {
+  position: relative;
+  top: 1px;
+}
+
+.main-container .deleteName {
+  font-size: 0.9rem;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-container .contact-book-container {
+  height: auto;
+  width: 30%;
+  background-color: #fff;
+  border-radius: 8%;
+  padding: 1.3rem;
+  -webkit-box-shadow: 1px 12px 11px 3px rgba(0, 0, 0, 0.64);
+  box-shadow: 1px 12px 11px 3px rgba(0, 0, 0, 0.64);
+}
+
+.main-container .contact-book-container .contact-header-section-1 {
+  margin-bottom: 10%;
+}
+
+.main-container .contact-book-container .contact-header-section-2 .contact-list .list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-container .contact-book-container .contact-header-section-2 .contact-list .list .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.main-container .notes-container {
+  height: auto;
+  width: 35%;
+  border-radius: 10%;
+  background-color: white;
+  -webkit-box-shadow: 1px 12px 11px 3px rgba(0, 0, 0, 0.64);
+  box-shadow: 1px 12px 11px 3px rgba(0, 0, 0, 0.64);
+  padding: 1.3rem;
+}
+
+.main-container .notes-container .notes-container-section-2 .notes-list .notes {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-container .notes-container .notes-container-section-2 .notes-list .notes .noteList-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
